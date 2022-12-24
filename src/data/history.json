@@ -1,0 +1,42 @@
+{
+  "education": [
+    {
+      "period": "2011 – 2015",
+      "school": "Cochin University of Science and Technology",
+      "degree": "Bachelor of Technology in Computer Science and Engineering",
+      "description": "Kerala, India"
+    }
+  ],
+  "career": [
+    {      
+      "period": "2022 - Present",
+      "company": "PIT Solutions LLC",
+      "title": "Lead Mobile Application Developer",
+      "description": "<p>Bellevue, Washington, United States<\/p>"
+    },
+    {      
+      "period": "2019 - 2022",
+      "company": "PIT Solutions",
+      "title": "Senior Software Engineer",
+      "description": "<p>Thiruvananthapuram, Kerala, India<\/p>"
+    },
+    {      
+      "period": "2018 - 2019",
+      "company": "PIT Solutions",
+      "title": "Software Engineer",
+      "description": "<p>Thiruvananthapuram, Kerala, India<\/p>"
+    },
+    {      
+      "period": "2017 - 2018",
+      "company": "SRS Global Technologies",
+      "title": "Android Developer",
+      "description": "Thiruvananthapuram, Kerala, India"
+    },
+    {      
+      "period": "2015 - 2017",
+      "company": "NXTLive Technologies",
+      "title": "Developer Engineer (Mobile)",
+      "description": "Thiruvananthapuram, Kerala, India"
+    }
+  ]
+}
