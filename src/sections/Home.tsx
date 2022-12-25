@@ -7,7 +7,7 @@ import styled from "styled-components";
 import { Scroller } from "../components";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import details from "../data/details.json";
-
+import { homepage } from "../../package.json";
 const Dot = styled.div({
   color: "#ff4c60",
   display: "inline",
@@ -23,7 +23,7 @@ export class Home extends React.Component {
         <Container>
           <div className="intro">
             <img
-              src={details.avatar}
+              src={homepage + details.avatar}
               alt="Vinayak  Nair"
               className="mb-4 rounded-circle"
             />

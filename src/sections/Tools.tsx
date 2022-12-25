@@ -1,21 +1,21 @@
-import React from 'react'
-import { Row, Col, Container } from 'react-bootstrap'
-import knowledge from '../data/knowledge.json'
-
-const tools = knowledge.tools
+import React from "react";
+import { Row, Col, Container } from "react-bootstrap";
+import knowledge from "../data/knowledge.json";
+import { homepage } from "../../package.json";
+const tools = knowledge.tools;
 
 export class Tools extends React.Component {
-  render () {
+  render() {
     return (
       <Container>
         <Row>
-          { tools.map((t, index) => (
+          {tools.map((t, index) => (
             <React.Fragment key={t.name}>
               {index % 4 === 0 && <div className="w-100 d-none d-md-block" />}
               <Col md={3} xs={6}>
                 <div className="knowledge">
                   <div className="item">
-                    <img src={t.image} alt={t.name} />
+                    <img src={homepage + t.image} alt={t.name} />
                   </div>
                 </div>
               </Col>
@@ -23,8 +23,8 @@ export class Tools extends React.Component {
           ))}
         </Row>
       </Container>
-    )
+    );
   }
 }
 
-export default Tools
+export default Tools;

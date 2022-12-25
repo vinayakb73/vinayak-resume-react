@@ -40,7 +40,7 @@
     "build": "webpack --config webpack.config.ts",
     "dev": "webpack serve --static ./build --hot --port 3000 --open",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
